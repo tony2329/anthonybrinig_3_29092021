@@ -1,0 +1,33 @@
+/* police ajouté au site */
+@font-face {
+  font-family: "shrikhand";
+  src: url(shrikhand/Shrikhand-Regular.otf);
+}
+
+@font-face {
+  font-family: "robotoregular";
+  src: url("Roboto-Regular-webfont.eot");
+  src: url("Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("Roboto-Regular-webfont.woff2") format("woff2"),
+    url("roboto_regular_macroman/Roboto-Regular-webfont.woff") format("woff"),
+    url("Roboto-Regular-webfont.ttf") format("truetype"),
+    url("Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotobold";
+  src: url("Roboto-Bold-webfont.eot");
+  src: url("Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("Roboto-Bold-webfont.woff2") format("woff2"),
+    url("roboto_bold_macroman/Roboto-Bold-webfont.woff") format("woff"),
+    url("Roboto-Bold-webfont.ttf") format("truetype"),
+    url("Roboto-Bold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#bloc_page {
+  font-family: "robotoregular";
+}
