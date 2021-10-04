@@ -28,6 +28,50 @@
   font-style: normal;
 }
 
+/* evite que les marge et padding prenne plus de place */
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #bloc_page {
   font-family: "robotoregular";
+}
+
+/* evite que les marge et padding prenne plus de place */
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* centrer logo */
+#logo_principal {
+  transform: scale(0.9);
+  display: block;
+  margin: auto;
+}
+
+/* logo + la barre de recherche */
+.barre_recherche {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.logo_destination {
+  padding-bottom: 13px;
+}
+
+#destination {
+  border: none;
+  background: none;
+  outline-style: none;
+  text-align: center;
+  padding-bottom: 10px;
 }
