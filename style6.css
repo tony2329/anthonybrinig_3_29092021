@@ -40,19 +40,22 @@
   font-family: "robotoregular";
 }
 
-/* evite que les marge et padding prenne plus de place */
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* centrer logo */
+/* centré logo */
 #logo_principal {
   transform: scale(0.9);
   display: block;
   margin: auto;
+}
+
+/* liens non surligné */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* quand le lien a été visité changer couleur */
+a:visited {
+  color: inherit;
 }
 
 /* logo + la barre de recherche */
@@ -68,10 +71,211 @@
   padding-bottom: 13px;
 }
 
+/* input */
 #destination {
   border: none;
   background: none;
   outline-style: none;
   text-align: center;
   padding-bottom: 10px;
+}
+
+/* le fond gris du heaeder */
+.background_header1 {
+  background-color: #f2f2f2;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+/* titre h1 */
+h1 {
+  font-size: 1.5rem;
+  font-family: "robotobold";
+  text-align: center;
+}
+
+/* paragraphe du header */
+.header_texte {
+  text-align: center;
+}
+
+/* centrer le bouton */
+.bouton_header1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* transformation du bonton principal */
+.bou_header1 {
+  background-color: #ff79da;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px gray;
+  border: none;
+  outline-style: none;
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* couleur du texte bouton */
+.bou_1color {
+  color: white;
+}
+
+/* les titres h2 du site */
+h2 {
+  font-family: "robotobold";
+  margin-left: 20px;
+}
+
+/* BLOC BOUTON */
+
+.bloc_bouton {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* les 3 BOUTONS 1 2 3 */
+
+.bouton_header2 {
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px lightgray;
+  padding: 20px;
+  margin: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* transformation du bonton 1 2 3 */
+
+.bou_header2 {
+  border: none;
+  outline-style: none;
+}
+
+/* le cercle et numéro */
+.flex_number {
+  display: block;
+  margin-left: -30px;
+  text-align: center;
+  background-color: #9356dc;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+/* les logos header */
+.logo_header2 {
+  transform: scale(1.1);
+  display: block;
+  margin: auto;
+  color: gray;
+}
+
+/* le texte dans le bouton */
+.bou_2color {
+  color: black;
+  font-family: "robotobold";
+  padding-right: 20px;
+}
+
+/* la marge du texte 1 pour centrer */
+.bou_2specolor {
+  color: black;
+  font-family: "robotobold";
+  padding-right: 10px;
+}
+
+.logo_header2 :hover {
+  color: #9356dc;
+}
+
+.bou_header2 :hover {
+  background-color: lightgray;
+}
+
+/* SECTION RESTAURANTS */
+
+/* le bloc restaurant */
+#les_restaurants {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+/* le cadre blanc et alignement description */
+.cadre_blanch {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* marge titre */
+.titre_restaurants {
+  padding-left: 10px;
+}
+
+/* marge paragrache */
+.paragraphe_restau {
+  padding-left: 10px;
+}
+
+/* modif taille et postionnement photos */
+.imagesrestaurants1 {
+  image-rendering: pixelated;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagesrestaurants2 {
+  image-rendering: pixelated;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagesrestaurants3 {
+  image-rendering: pixelated;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagesrestaurants4 {
+  image-rendering: pixelated;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* cadre nouveau */
+
+.new {
+  position: absolute;
+  bottom: 75%;
+  left: 72%;
+  border-radius: 5px;
+  background-color: #99e2d0;
+  color: #458460;
+  padding: 7px;
+}
+/* mettre texte sur photo */
+.contenant {
+  position: relative;
+}
+
+/* COEUR */
+
+.heart {
 }
