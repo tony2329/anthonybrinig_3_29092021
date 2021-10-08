@@ -62,7 +62,7 @@ a:visited {
 .barre_recherche {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: #e3e7e5;
   padding-top: 10px;
   margin-top: 10px;
 }
@@ -223,11 +223,16 @@ h2 {
 /* marge titre */
 .titre_restaurants {
   padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  font-family: "robotobold";
 }
 
 /* marge paragrache */
 .paragraphe_restau {
   padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: -5px;
 }
 
 /* modif taille et postionnement photos */
@@ -278,4 +283,38 @@ h2 {
 /* COEUR */
 
 .heart {
+  position: relative;
+  left: 110%;
+  transform: scale(1.5);
+}
+
+/* FOOTER */
+
+#footer_ohmyfood {
+  background-color: #333234;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.puce {
+  list-style-type: none;
+  padding-left: 2px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* les marges et puce enlever */
+#liste_a_propos {
+  margin-top: -20px;
+}
+
+#logo_footer {
+  transform: scale(0.5);
+  position: relative;
+  right: 10%;
+  margin-top: 20px;
+}
+
+.marge_li_footer {
+  padding-top: 5px;
 }
